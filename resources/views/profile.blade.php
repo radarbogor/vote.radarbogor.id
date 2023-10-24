@@ -17,14 +17,14 @@
                     <img class="img_thumbx bg-white p-1 shadow" data-aos="zoom-out" data-aos-duration="1500"
                         src="{{ asset('storage/' . $data_item->vote_image) }}" alt="...">
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7 mb-3">
                     <div data-aos="fade-down" data-aos-duration="1000">
-                        <h1 class="card-title mb-0 fw-bold mb-3 mb-md-0 text-uppercase">{{ $data_item->vote_name }}</h1>
+                        <h1 class="card-title mb-0 fw-bold mb-3 mb-md-0">{{ $data_item->vote_name }}</h1>
                         <hr class="mt-1 mb-3 d-none d-md-block">
                         <p class="mb-1 fw-bold">{{ $data_item->vote_position }}</p>
-                        <p class="fw-bold">{!! $data_item->description !!}</p>
                     </div>
                 </div>
+                <p class="fw-bold">{!! $data_item->description !!}</p>
             </div>
 
             @if ($data_item->voteProfile)

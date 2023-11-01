@@ -12,7 +12,7 @@
     <div class="col-md-10 mx-auto my-5">
 
     {{-- Polling unit --}}
-    <h6 class="text-muted mb-5">{{ $title }}</h6>
+     <h6 class="text-muted mb-5">{{ $title }}</h6>
 
       <div class="print-container">
 
